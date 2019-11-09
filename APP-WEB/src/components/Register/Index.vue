@@ -11,9 +11,9 @@
                         <th>Data/Hora</th>
                     </thead>
                     <tbody>
-                        <tr v-for="user in allRegistered_Times" :key="user.id">
-                            <td>{{ user.user.email }}</td>
-                            <td>{{ user.time_registered }}</td>
+                        <tr v-for="time in allRegistered_Times" :key="time.id">
+                            <td>{{ time.user.email }}</td>
+                            <td>{{ time.time_registered }}</td>
                         </tr>
                     </tbody>
                 </table>
